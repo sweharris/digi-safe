@@ -8,3 +8,9 @@ The details of the safe and how I built it is at https://www.sweharris.org/post/
 This repository contains the source for the Arduino sketch and a simple
 web interface written in `go`
 
+You can't `go build` this repo 'cos we have more than just the web server;
+you can `git clone` it, and there's a sample "build.sh" script that
+sets `GOPATH` as necesary.
+
+
+GPL2 or later
