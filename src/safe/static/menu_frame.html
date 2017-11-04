@@ -1,0 +1,54 @@
+<html>
+<head>
+  <base target="main">
+  <title>Safe menu</title>
+</head>
+<body>
+<center><h2>Menu</h2>
+<p>
+<form method=post action=safe/ enctype="multipart/form-data">
+<input type=submit value=Status name=status>
+</form>
+<hr>
+<form method=post action=safe/ enctype="multipart/form-data">
+Open safe door:<br>
+<select name="duration">
+  <option value="5">5 seconds</option>
+  <option value="10">10 seconds</option>
+  <option value="20">20 seconds</option>
+  <option value="30">30 seconds</option>
+  <option value="60">60 seconds</option>
+</select>&nbsp;&nbsp;
+<input type=submit value="Open Safe" name=open>
+</form>
+<hr>
+<form method=post action=safe/ enctype="multipart/form-data">
+Unlock pswd:<br>
+<input type=password name=unlock length=40><br>
+<input type=submit value="Test password" name=pwtest>
+<input type=submit value="Unlock Once" name=unlock_1>
+<input type=submit value="Unlock Permanent" name=unlock_all>
+</form>
+<hr>
+<form method=post action=safe/ enctype="multipart/form-data">
+Lock safe with new password:<br>
+pswd: <input type=password name=lock1 length=40><br>
+Repeat: <input type=password name=lock2 length=40><br>
+<input type=submit value="Lock" name=lock>
+</form>
+<hr>
+<form method=post action=safe/ enctype="multipart/form-data">
+Unlock file with image<br>
+<input type="file" name="fileToUpload"><br>
+<input type="submit" value="Test Image" name="image_test">
+<input type="submit" value="Unlock Once" name="image_unlock_1">
+<input type="submit" value="Unlock Permanant" name="image_unlock_all">
+</form>
+<hr>
+<form method=post action=safe/ enctype="multipart/form-data">
+Generate random password and lock<br>
+<input type=submit value="Randomize" name=random>
+</center>
+</form>
+</body>
+</html>

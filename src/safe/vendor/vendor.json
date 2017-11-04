@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "/8A+wGFPFcBoT5+9APp05ueeokU=",
+			"path": "github.com/tarm/goserial",
+			"revision": "b3440c3c63556c3fd67e915be3b92195bc70294a",
+			"revisionTime": "2015-10-07T20:54:00Z"
+		},
+		{
+			"checksumSHA1": "iHYIGVi44vnHHSMX77JCcFhbDCI=",
+			"path": "github.com/tkanos/gonfig",
+			"revision": "235175ac9a97f4a15559285d83453b79a383c1f8",
+			"revisionTime": "2017-10-03T12:09:59Z"
+		}
+	],
+	"rootPath": "safe"
+}
